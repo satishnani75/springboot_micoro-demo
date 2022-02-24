@@ -28,7 +28,7 @@ public class MyLogController {
 
 		log.error("error happend");
 
-		return "haiiiiii------------" + name;
+		return "haiiiiii----777777777777--------" + name;
 	}
 
 	@GetMapping("/path/{name}")
