@@ -27,6 +27,7 @@ public class MyLogController {
 	public String show(@RequestParam("name") String name) {
 
 		log.error("error happend");
+		System.out.println("hkjhkjhkjhk");
 
 		return "haiiiiii----777777777777--88888------" + name;
 	}
