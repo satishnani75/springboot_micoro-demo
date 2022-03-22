@@ -27,7 +27,7 @@ public class MyLogController {
 	public String show(@RequestParam("name") String name) {
 
 		log.error("error happend");
-		System.out.println(" dat form git online ");
+		System.out.println(" dat form git online 8888888888888 ");
 
 		return "haiiiiii----777777777777--88888------" + name;
 	}
